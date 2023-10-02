@@ -1,4 +1,5 @@
 import './App.scss';
+import './styles/GlobalStyle.scss';
 import { Layout } from "./layouts/Layout";
 import {
   BrowserRouter,

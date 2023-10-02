@@ -1,9 +1,10 @@
 import { styled } from 'styled-components';
+import { BannerSection } from '../../components/BannerSection';
 
 export function Main() {
     return (
         <ContainerBox>
-
+            <BannerSection/>
         </ContainerBox>
     );
 };

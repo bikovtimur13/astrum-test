@@ -39,9 +39,19 @@ export const TextContentWrapper = styled.div`
         color: #FFF;
         text-align: center;
         font-family: Roboto Regular;
-        font-size: 42px;
+        font-size: Clamp(30px, 6vw, 42px);
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    span{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: Clamp(18px, 4vw, 20px);
+        font-style: normal;
+        font-weight: 400;
         line-height: normal;
     }
 `;
